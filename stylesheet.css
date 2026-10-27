@@ -1,0 +1,43 @@
+/* Requirement: Use a CSS selector to apply style(s) to at least one HTML tag */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Requirement: Style the id */
+#main-title {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Requirement: Style the class */
+/* Requirement: Change at least two box model properties (margin, padding, border, etc.) */
+.content-section {
+    background-color: #ffffff;
+    border: 2px solid #ddd;       /* Box model property 1 */
+    padding: 20px;                /* Box model property 2 */
+    margin: 20px auto;            /* Box model property 3 */
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+/* Base style for the link */
+a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Requirement: Use a CSS selector to change the color of <a> when you hover */
+a:hover {
+    color: #ff5722;
+    text-decoration: underline;
+}
+
+/* Just ensuring the image fits nicely inside the div */
+img {
+    display: block;
+    margin: 15px auto;
+    border-radius: 4px;
+}
